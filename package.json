@@ -1,0 +1,26 @@
+{
+  "name": "general-interpolation",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "monabbous <mohamed.nabbous@gmail.com>",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.1",
+    "@tsconfig/svelte": "^3.0.0",
+    "sass": "^1.57.0",
+    "svelte": "^3.54.0",
+    "svelte-check": "^2.10.2",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4",
+    "vitest": "^0.25.3"
+  }
+}

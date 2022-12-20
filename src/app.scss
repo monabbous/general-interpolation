@@ -1,0 +1,18 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    color-scheme: dark light;
+    color: #232323;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    @media (prefers-color-scheme: dark)  {
+        background-color: #232323;
+        color: white;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
