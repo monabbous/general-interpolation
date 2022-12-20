@@ -1,6 +1,6 @@
 # Mo Nabbous' Interpolation
 
-This project aims to implement numerical analysis' interpolation formulas in a way that it auto-selects the best formula for the given data and interpolates with it, and can be **[visualized in with this webpage here](htmlpreview.github.io/?https://github.com/monabbous/general-interpolation/blob/master/dist/index.html)**
+This project aims to implement numerical analysis' interpolation formulas in a way that it auto-selects the best formula for the given data and interpolates with it, and can be **[visualized in with this webpage here](https://htmlpreview.github.io/?https://github.com/monabbous/general-interpolation/blob/master/dist/index.html)**
 
 ### Interpolation Formulas Used
 - Newton's Forward Formula
