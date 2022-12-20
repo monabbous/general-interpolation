@@ -20,8 +20,9 @@
     "src/**/*.d.ts",
     "src/**/*.ts",
     "src/**/*.js",
-    "src/**/*.svelte"
-, "lib/general-interpolation],
+    "src/**/*.svelte",
+    "lib/general-interpolation"
+  ],
   "references": [
     {
       "path": "./tsconfig.node.json"
