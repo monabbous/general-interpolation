@@ -17,8 +17,14 @@ for this project, i wanted to minimize the code's footprint as much as possible,
 
 
 $$
-P(x) = \sum_{i=0}^n (\space\frac{1}{i!} \space\space\frac{\Delta^i y_{\lfloor\frac{i + YIS}{YIF}\rfloor} + A({ \Delta^i y_{\lfloor\frac{i + YIS}{YIF}\rfloor}}, i . \space IAF)}{A(2,i . \space IAF)}\space\prod_{\underset{k\neq i}{k=0}}^{i}p-(\lfloor\frac{k + KS + A(KAF, i + k)}{KF}\rfloor . (-1)^{(k + KS) * KEF}) .DIR)
+P(x) = \sum_{i=0}^n (\space\frac{1}{i!} \space\space\frac{\Delta^i y_{\lfloor\frac{i + YIS}{YIF}\rfloor} + Alt({ \Delta^i y_{\lfloor\frac{i + YIS}{YIF}\rfloor}}, i . \space IAF)}{Alt(2,i . \space IAF)}\space\prod_{\underset{k\neq i}{k=0}}^{i}p-(\lfloor\frac{k + KS + Alt(KAF, i + k)}{KF}\rfloor . (-1)^{(k + KS) * KEF}) .DIR)
 $$
+
+and this is the $Alt(c, i)$ function
+
+$A(c, i) = (\frac{-1^i + 1}{2}) . c$
+
+$Alt(c, i)$ is an alternating function that resolves into $c$ if $i$ is even or $0$ if it is odd
 
 Note that, i in this formula is going to be used after selected the zero y index, which will be `y index = zero index + getYIndex(i)`
 
